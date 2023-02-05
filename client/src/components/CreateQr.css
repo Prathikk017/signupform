@@ -1,0 +1,30 @@
+
+.text{
+    width: 80%;
+}
+
+.btn5{
+  text-align: center;
+  background-color: rgb(40, 160, 62);
+  font-weight: 800;
+  font-size: medium;
+  color: white;
+  border-radius: 8px;
+  margin-top: 20px;
+  padding: 10px 30px;
+  width:max-content;
+  margin-left: 10px;
+}
+
+.btn5:hover{
+    opacity: 80%;
+    cursor: pointer;
+}
+
+
+img{
+  margin: 5%;
+  border-radius: 10px;
+  border: 2px solid black;
+  height: 150px;
+}

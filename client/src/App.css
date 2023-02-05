@@ -1,0 +1,151 @@
+.App {
+  text-align: center;
+  
+}
+
+body {
+  text-align: center;
+  background: rgb(198, 227, 246);
+
+}
+.form {
+  margin-top: 10%;
+  margin: 6% auto;
+  margin-bottom: 2%;
+  padding: 5px 45px 45px 45px;
+  width: 635px;
+  background: rgb(235, 248, 241);
+  background: radial-gradient(circle, rgb(99, 162, 234) 100%, rgba(238,174,202,1) 0%,);
+  border: 1.5px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction:column;
+  text-align: justify;
+  line-height: 1;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 80px;
+  text-align: center;
+  margin-left:20px ;
+  margin-bottom: 10px;
+  padding: auto;
+}
+
+input, select{
+  padding: 5px;
+  width: 94%;
+  margin-left: 10px;
+  font-size: large;
+  margin-top: 10px;
+}
+
+label{
+  font-size: larger;
+  text-align: center;
+  font-weight: 800;
+}
+
+.button{
+  text-align: center;
+  background-color: rgb(233, 87, 87);
+  font-weight: 800;
+  color: white;
+  margin-top: 20px;
+  padding: 10px 30px;
+  width:max-content;
+  border-radius: 8px;
+  margin-top: 21px;
+  margin-left: 165px;
+}
+
+.button1{
+  text-align: center;
+  background-color: rgb(233, 87, 87);
+  font-weight: 800;
+  color: white;
+  border-radius: 8px;
+  margin-top: 20px;
+  padding: 10px 30px;
+  width:max-content;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.button:hover {
+  cursor: pointer;
+  opacity: 80%;
+}
+
+.button1:hover {
+  cursor: pointer;
+  opacity: 80%;
+}
+
+.button2{
+  text-align: center;
+  background-color: rgb(233, 87, 87);
+  font-weight: 800;
+  color: white;
+  border-radius: 8px;
+  margin-top: 20px;
+  padding: 10px 30px;
+  width:max-content;
+  margin-left: 10px;
+}
+
+.button2:hover {
+  cursor: pointer;
+  opacity: 80%;
+}
+
+.users{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  font-family: monospace;
+  font-size: medium;
+}
+
+.user{
+  width: 700px;
+  height: auto;
+  background: rgb(235, 248, 241);
+  border: 1.5px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: left;
+  margin: 10px;
+}
+
+.user h3{
+  margin: 20px;
+}
+
+.input{
+  width: max-content;
+}
+
+.qrcode{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5% 10%;
+  width: auto;
+  height: auto;
+}
+.create{
+  background: rgb(235, 248, 241);
+  width: 50%;
+  border: 1.5px solid black;
+  border-radius: 10px;
+}
+.read{
+  background: rgb(235, 248, 241);
+  width: 50%;
+  margin-left: 10%;
+  border: 1.5px solid black;
+  border-radius: 10px;
+}
